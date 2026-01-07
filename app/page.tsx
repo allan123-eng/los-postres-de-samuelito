@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 const CLAVE_ADMIN = "1234"; 
 const HORARIO_APERTURA = 9;  
 const HORARIO_CIERRE = 21;   
-const WHATSAPP_NUMERO = "50512345678"; 
+const WHATSAPP_NUMERO = "50581251478"; 
 
 const PRODUCTOS_INICIALES = [
   { id: 1, categoria: "postres", nombre: "Cheesecake de Fresa", precio: 15.00, img: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=500" },
@@ -106,7 +106,7 @@ export default function Home() {
       {/* HEADER */}
       <header className="flex justify-between items-center max-w-6xl mx-auto mb-8 bg-white p-6 rounded-3xl shadow-sm border border-purple-100">
         <div>
-          <h1 className="text-3xl font-black text-purple-700 italic">Samuelito Mix 🚀</h1>
+          <h1 className="text-3xl font-black text-purple-700 italic">LOS POSTRECITOS DE SAMUEL🚀</h1>
           <p className="text-[10px] font-bold text-gray-500 uppercase">{estaAbierto ? '🟢 Abierto' : '🔴 Cerrado'}</p>
         </div>
         <button onClick={() => setIsCartOpen(true)} className="relative p-4 bg-purple-50 rounded-full text-purple-600">
@@ -127,7 +127,7 @@ export default function Home() {
         onChange={(e) => setBusqueda(e.target.value)}
       />
 
-      {/* GRID PRODUCTOS (BOTÓN ARREGLADO) */}
+      {/* GRID PRODUCTOS */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {productosFiltrados.map((prod) => (
           <div key={prod.id} className="bg-white rounded-[2.5rem] shadow-sm border border-purple-50 overflow-hidden">
