@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const HORARIO_APERTURA = 9; 
 const HORARIO_CIERRE = 21;  
-const WHATSAPP_NUMERO = "50512345678"; 
+const WHATSAPP_NUMERO = "50581251478"; 
 
 const PRODUCTOS = [
   { id: 1, categoria: "postres", nombre: "Cheesecake de Fresa", precio: 15.00, img: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=500" },
