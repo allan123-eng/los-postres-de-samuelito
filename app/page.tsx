@@ -50,8 +50,8 @@ export default function Home() {
       {/* HEADER E ICONO CARRITO */}
      <header className="flex justify-between items-center max-w-6xl mx-auto mb-8 bg-purple-50 p-4 rounded-2xl">
   <div>
-    <h1 className="text-3xl font-black text-purple-600 uppercase tracking-tighter">Samuelito Mix 🚀</h1>
-    <p className="text-gray-500 text-sm italic">¡Probando actualizaciones en vivo! ✨</p>
+    <h1 className="text-3xl font-black text-purple-600 uppercase tracking-tighter">Bienvenidos a Postres samuelito</h1>
+    <p className="text-gray-500 text-sm italic">Postres ricos y más✨</p>
   </div>
         <button onClick={() => setIsCartOpen(true)} className="relative p-3 bg-white rounded-full shadow-md border border-pink-100">
           <span className="text-2xl">🛍️</span>
